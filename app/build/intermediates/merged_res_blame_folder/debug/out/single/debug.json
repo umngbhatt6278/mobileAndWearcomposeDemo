@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/xml_backup_rules.xml.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/drawable_ic_no_data_found.png.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/drawable/ic_no_data_found.png"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/drawable_ic_bg_score.png.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/drawable/ic_bg_score.png"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/drawable_ic_vs_banner.png.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/drawable/ic_vs_banner.png"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/drawable_ic_all_sport.png.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/drawable/ic_all_sport.png"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.livecricketdemo.app-merged_res-73:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.livecricketdemo.app-main-75:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

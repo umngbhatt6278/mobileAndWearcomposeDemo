@@ -1,0 +1,222 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.livecricketdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:5:5-68
+11-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:5:22-65
+12
+13    <uses-feature android:name="android.hardware.type.watch" />
+13-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:7:5-64
+13-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:7:19-61
+14
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:10:5-67
+16-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:11:5-76
+17-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:11:22-73
+18
+19    <application
+19-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:13:5-76:19
+20        android:name="com.example.livecricketdemo.FoodiesApp"
+20-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:14:9-35
+21        android:allowBackup="true"
+21-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:15:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.8.0] C:\Users\baps\.gradle\caches\transforms-3\0cc2eb227e297ec066525ad20957a960\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:16:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:17:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:18:9-43
+28        android:label="@string/app_name"
+28-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:19:9-41
+29        android:largeHeap="true"
+29-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:20:9-33
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:21:9-54
+31        android:supportsRtl="true"
+31-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:22:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.ComposeWithBaseStructure"
+33-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:23:9-62
+34        android:usesCleartextTraffic="true" >
+34-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:24:9-44
+35
+36        <!--
+37            <uses-library
+38            android:name="com.google.android.wearable"
+39            android:required="true" />
+40        -->
+41
+42        <meta-data
+42-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:32:9-34:36
+43            android:name="com.google.android.wearable.standalone"
+43-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:33:13-66
+44            android:value="true" />
+44-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:34:13-33
+45
+46        <activity
+46-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:37:9-45:20
+47            android:name="com.example.livecricketdemo.MainActivity"
+47-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:38:13-41
+48            android:exported="true" >
+48-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:39:13-36
+49            <intent-filter>
+49-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:40:13-44:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:41:17-69
+50-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:41:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:43:17-77
+52-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:43:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:47:9-60:20
+56            android:name="com.example.livecricketdemo.presentation.WearActivity"
+56-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:48:13-54
+57            android:exported="true"
+57-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:49:13-36
+58            android:label="@string/title_activity_presentation._wear"
+58-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:50:13-70
+59            android:theme="@android:style/Theme.DeviceDefault" >
+59-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:51:13-63
+60            <intent-filter>
+60-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:40:13-44:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:41:17-69
+61-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:41:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:43:17-77
+63-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:43:27-74
+64            </intent-filter>
+65
+66            <meta-data
+66-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:57:13-59:36
+67                android:name="android.app.lib_name"
+67-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:58:17-52
+68                android:value="" />
+68-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:59:17-33
+69        </activity>
+70        <activity
+70-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:62:9-64:52
+71            android:name="com.example.livecricketdemo.ui.category.LiveMatchCategoriesScreen"
+71-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:63:13-66
+72            android:screenOrientation="portrait" />
+72-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:64:13-49
+73        <activity
+73-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:65:9-67:52
+74            android:name="com.example.livecricketdemo.ui.crickeet.ScoreCricket"
+74-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:66:13-53
+75            android:screenOrientation="portrait" />
+75-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:67:13-49
+76        <activity
+76-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:69:9-71:52
+77            android:name="com.example.livecricketdemo.presentation.WearListActivity"
+77-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:70:13-58
+78            android:screenOrientation="portrait" />
+78-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:71:13-49
+79        <activity
+79-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:73:9-75:52
+80            android:name="com.example.livecricketdemo.presentation.WearScoreScreen"
+80-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:74:13-57
+81            android:screenOrientation="portrait" />
+81-->D:\AndroidStudioProjects\livecricketdemo\app\src\main\AndroidManifest.xml:75:13-49
+82        <activity
+82-->[androidx.compose.ui:ui-tooling:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\a56689f3e4f307eccf5cfca49dab5ab6\transformed\ui-tooling-1.2.0-rc01\AndroidManifest.xml:24:9-26:39
+83            android:name="androidx.compose.ui.tooling.PreviewActivity"
+83-->[androidx.compose.ui:ui-tooling:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\a56689f3e4f307eccf5cfca49dab5ab6\transformed\ui-tooling-1.2.0-rc01\AndroidManifest.xml:25:13-71
+84            android:exported="true" />
+84-->[androidx.compose.ui:ui-tooling:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\a56689f3e4f307eccf5cfca49dab5ab6\transformed\ui-tooling-1.2.0-rc01\AndroidManifest.xml:26:13-36
+85        <activity
+85-->[androidx.compose.ui:ui-test-manifest:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\17e79f1b0d5cda27f3cab525bbb71a73\transformed\ui-test-manifest-1.2.0-rc01\AndroidManifest.xml:24:9-26:39
+86            android:name="androidx.activity.ComponentActivity"
+86-->[androidx.compose.ui:ui-test-manifest:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\17e79f1b0d5cda27f3cab525bbb71a73\transformed\ui-test-manifest-1.2.0-rc01\AndroidManifest.xml:25:13-63
+87            android:exported="true" />
+87-->[androidx.compose.ui:ui-test-manifest:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\17e79f1b0d5cda27f3cab525bbb71a73\transformed\ui-test-manifest-1.2.0-rc01\AndroidManifest.xml:26:13-36
+88
+89        <uses-library
+89-->[androidx.window:window:1.0.0] C:\Users\baps\.gradle\caches\transforms-3\aa28848c3be76a7bb7cdb2fb5a45859c\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+90            android:name="androidx.window.extensions"
+90-->[androidx.window:window:1.0.0] C:\Users\baps\.gradle\caches\transforms-3\aa28848c3be76a7bb7cdb2fb5a45859c\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+91            android:required="false" />
+91-->[androidx.window:window:1.0.0] C:\Users\baps\.gradle\caches\transforms-3\aa28848c3be76a7bb7cdb2fb5a45859c\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+92        <uses-library
+92-->[androidx.window:window:1.0.0] C:\Users\baps\.gradle\caches\transforms-3\aa28848c3be76a7bb7cdb2fb5a45859c\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+93            android:name="androidx.window.sidecar"
+93-->[androidx.window:window:1.0.0] C:\Users\baps\.gradle\caches\transforms-3\aa28848c3be76a7bb7cdb2fb5a45859c\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+94            android:required="false" />
+94-->[androidx.window:window:1.0.0] C:\Users\baps\.gradle\caches\transforms-3\aa28848c3be76a7bb7cdb2fb5a45859c\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+95
+96        <provider
+96-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\baps\.gradle\caches\transforms-3\17f8a53be226ad63aff52b776acb4426\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+97            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\baps\.gradle\caches\transforms-3\17f8a53be226ad63aff52b776acb4426\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+98            android:authorities="com.example.livecricketdemo.lifecycle-process"
+98-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\baps\.gradle\caches\transforms-3\17f8a53be226ad63aff52b776acb4426\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+99            android:exported="false"
+99-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\baps\.gradle\caches\transforms-3\17f8a53be226ad63aff52b776acb4426\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+100            android:multiprocess="true" />
+100-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\baps\.gradle\caches\transforms-3\17f8a53be226ad63aff52b776acb4426\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+101        <provider
+101-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:25:9-33:20
+102            android:name="androidx.startup.InitializationProvider"
+102-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:26:13-67
+103            android:authorities="com.example.livecricketdemo.androidx-startup"
+103-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:27:13-68
+104            android:exported="false" >
+104-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:28:13-37
+105            <meta-data
+105-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:30:13-32:52
+106                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+106-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:31:17-85
+107                android:value="androidx.startup" />
+107-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:32:17-49
+108        </provider>
+109
+110        <receiver
+110-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:35:9-47:20
+111            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+111-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:36:13-76
+112            android:directBootAware="false"
+112-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:37:13-44
+113            android:enabled="true"
+113-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:38:13-35
+114            android:exported="true"
+114-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:39:13-36
+115            android:permission="android.permission.DUMP" >
+115-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:40:13-57
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:41:13-43:29
+117                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:42:17-91
+117-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:42:25-88
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:44:13-46:29
+120                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:45:17-85
+120-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] C:\Users\baps\.gradle\caches\transforms-3\53cc9f524da2ec24e42409a603361d69\transformed\profileinstaller-1.2.0-rc01\AndroidManifest.xml:45:25-82
+121            </intent-filter>
+122        </receiver>
+123    </application>
+124
+125</manifest>
